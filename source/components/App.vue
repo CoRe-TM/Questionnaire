@@ -1,15 +1,14 @@
 <template>
-    <div id="front">
-        <h1>Hello {{ message }}!</h1>
-    </div>
+  <div id="front">
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'App', data: () => ({
-        message: 'coretm-questionnaire'
-    })
-};
+  name: 'App',
+  data: () => ({
+  })
+}
 </script>
 
 <style lang="scss" scoped>
