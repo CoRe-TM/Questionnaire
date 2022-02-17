@@ -1,5 +1,7 @@
 <template>
   <div id="front">
+    <router-link to="/entry">Entry</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -7,7 +9,10 @@
 export default {
   name: 'App',
   data: () => ({
-  })
+  }),
+  mounted: function () {
+    window.coretmconf = {}
+  }
 }
 </script>
 
