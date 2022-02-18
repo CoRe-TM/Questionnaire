@@ -15,3 +15,8 @@ body {
   height: 100%;
   width: 100%;
 }
+
+a { color: inherit; }
+a:before {
+  content: '\2192  '
+}

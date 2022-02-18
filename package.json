@@ -15,16 +15,17 @@
   "dizmo": {
     "settings": {
       "attributes": {
-        "settings/usercontrols/allowresize": true
+        "settings/usercontrols/allowresize": true,
+        "settings/frameColor": "#2a2a2a"
       },
       "bundle-identifier": "com.vonderassen.coretm_questionnaire",
-      "bundle-name": "coretm-questionnaire",
+      "bundle-name": "Questionnaire",
       "category": "",
-      "height": 360,
+      "height": 520,
       "tags": [
         "coretm-questionnaire"
       ],
-      "width": 480
+      "width": 420
     },
     "store": {
       "host": "https://store-api.dizmo.com"

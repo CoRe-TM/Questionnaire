@@ -4,7 +4,7 @@
     <div>
       <router-link to="/assetmethodology">No</router-link>
     </div>
-    <div>
+    <div @click="storeAssetMethodology('None')">
       <router-link to="/background">Yes</router-link>
     </div>
   </div>
@@ -14,7 +14,12 @@
 export default {
   name: 'assetobjectdefined',
   data: () => ({
-  })
+  }),
+  methods: {
+    storeAssetMethodology: function (method) {
+      dizmo.publicStorage.setProperty('assetmethod', method)
+    }
+  }
 }
 </script>
 
